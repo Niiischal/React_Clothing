@@ -24,3 +24,29 @@
     text-align: center;
     padding:.375rem.75rem;
 }
+
+@media screen and (max-width: 600px) {
+    .container .top{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .top>h1{
+        font-size: 1.5rem;
+        margin: 7px 0 0 0;
+    }
+
+    .top > .search {
+        margin-top: 5px;
+        gap: 2rem;
+        height: 30px;
+        margin-top: 9px;
+        margin-left: 40px;
+        width: 100%;
+        gap: 3px;
+    }
+
+    .search > .btn{
+        padding:.105rem.75rem;
+    }
+}

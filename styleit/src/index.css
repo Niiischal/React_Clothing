@@ -73,3 +73,19 @@ a:hover {
   border-color: var(--color-black);
 
 }
+
+/* Media queries for medium devices */
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--container-width-md);
+  }
+
+}
+
+/* Media queries for small devices */
+@media screen and (max-width: 600px) {
+  .container {
+    width: var(--container-width-ms);
+  }
+
+}
