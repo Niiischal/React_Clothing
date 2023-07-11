@@ -17,16 +17,15 @@
     justify-content: flex-end;
     gap: 2rem;
     height: 40px;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
-.search > .btn{
-    text-align: center;
-    padding:.375rem.75rem;
+.search_icon{
+    font-size: 1.7rem;
 }
 
 @media screen and (max-width: 600px) {
-    .container .top{
+    .top{
         display: flex;
         justify-content: space-between;
     }
@@ -37,16 +36,6 @@
     }
 
     .top > .search {
-        margin-top: 5px;
-        gap: 2rem;
-        height: 30px;
         margin-top: 9px;
-        margin-left: 40px;
-        width: 100%;
-        gap: 3px;
-    }
-
-    .search > .btn{
-        padding:.105rem.75rem;
     }
 }

@@ -1,4 +1,5 @@
 import React from 'react'
+import { FiSearch } from 'react-icons/fi'
 import './topnav.css'
 
 const Topnav = () => {
@@ -7,8 +8,7 @@ const Topnav = () => {
 <div className="container top">
     <h1>StyleIt.</h1>
     <div className="search">
-    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"></input>
-    <a href="#" className='btn'>Search</a>
+    <FiSearch className='search_icon'/>
 </div>
 </div>
 </>
