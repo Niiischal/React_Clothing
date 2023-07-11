@@ -13,7 +13,6 @@
 
 .top > .search {
     display: flex;
-    margin-top: 5px;
     justify-content: flex-end;
     gap: 2rem;
     height: 40px;
@@ -22,6 +21,11 @@
 
 .search_icon{
     font-size: 1.7rem;
+}
+
+.cart_icon{
+    font-size: 1.65rem;
+    margin-top: 0px;
 }
 
 @media screen and (max-width: 600px) {
