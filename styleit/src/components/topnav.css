@@ -1,0 +1,26 @@
+.top{
+    height:50px;
+    width: var(--container-width-lg);
+    display: flex;
+    justify-content: space-between;
+}
+
+.top > h1{
+    font-size: 2rem;
+    color: var(--color-black);
+    margin: 4px 0 0 0;
+  }
+
+.top > .search {
+    display: flex;
+    margin-top: 5px;
+    justify-content: flex-end;
+    gap: 2rem;
+    height: 40px;
+    margin-top: 5px;
+}
+
+.search > .btn{
+    text-align: center;
+    padding:.375rem.75rem;
+}
