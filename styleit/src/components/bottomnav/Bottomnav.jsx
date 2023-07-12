@@ -8,11 +8,11 @@ const Bottomnav = () => {
   return (
     <div>
       <nav>
-        <a href=""><AiOutlineHome/></a>
-        <a href=""><ImMan/></a>
-        <a href=""><ImWoman/></a>
-        <a href=""><GiConverseShoe/></a>
-        <a href=""><AiOutlineUser/></a>
+        <a href="/"><AiOutlineHome/></a>
+        <a href="/"><ImMan/></a>
+        <a href="/"><ImWoman/></a>
+        <a href="/"><GiConverseShoe/></a>
+        <a href="/"><AiOutlineUser/></a>
       </nav>
     </div>
   )
