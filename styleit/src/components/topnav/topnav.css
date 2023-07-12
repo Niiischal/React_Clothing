@@ -3,12 +3,13 @@
     width: var(--container-width-lg);
     display: flex;
     justify-content: space-between;
+
 }
 
 .top > h1{
     font-size: 2rem;
     color: var(--color-black);
-    margin: 4px 0 0 0;
+    margin: 4px 0 0 35px;
   }
 
 .top > .search {
@@ -17,6 +18,11 @@
     gap: 2rem;
     height: 40px;
     margin-top: 10px;
+}
+
+.profile_icon{
+    font-size: 1.7rem;
+    margin-top: 12px;
 }
 
 .search_icon{
@@ -35,11 +41,17 @@
     }
 
     .top>h1{
-        font-size: 1.5rem;
-        margin: 7px 0 0 0;
+        display: none;
+        font-size: 2rem;
+        margin: 4px 0 0 0;
     }
 
     .top > .search {
         margin-top: 9px;
+    }
+
+    .profile_icon{
+        font-size: 1.7rem;
+        margin-top: 11px;
     }
 }
