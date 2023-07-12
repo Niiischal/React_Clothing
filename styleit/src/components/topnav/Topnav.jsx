@@ -24,7 +24,7 @@ const Topnav = () => {
   };
 
   const handleOnClick = () => {
-    setIsShown(true);
+    setIsShown(!isShown);
   };
 
   return (
