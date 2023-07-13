@@ -33,7 +33,8 @@ const Home = () => {
                     <div className="description">
                     <h1>StyleIt</h1>
                     <h2>Made In Nepal.</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia suscipit praesentium vero totam, minus tempore sint nulla exercitationem dignissimos voluptates iusto in nobis explicabo! Culpa ipsum beatae ducimus nesciunt voluptatem laudantium quidem laborum, tempora fuga natus eius harum quae dolor, blanditiis quibusdam itaque aut quia repellat qui accusantium aspernatur non?</p>
+                    <p>Welcome to our inclusive clothing store <span>StyleIt</span>, where men, women, and shoe lovers alike can find the perfect pieces to enhance their personal style. With our extensive selection of fashionable apparel and footwear, we offer something for every occasion and taste. Our knowledgeable team is dedicated to providing exceptional service, ensuring that your shopping experience is both enjoyable and rewarding. Discover a world of limitless possibilities as you explore our diverse range of clothing and shoe options, and let us help you unleash your inner fashionista with confidence and style.
+                    </p>
                     </div>
                 </div>
             </div>
