@@ -7,17 +7,16 @@ const Home = () => {
   return (
     <section>
         <div className="container home">
-        <div className="first_img">
-            <div className="img">
-            <img src={img1} alt="" />
-            </div>
-        </div>
         <div className="contents">
-            <div className="second_img">
+            <div className="item1">
                 <img src={img2} alt="" />
             </div>
-            <div className="description">
-                <h1>Get to know about us</h1>
+            <div className="item2">
+                <img src={img1} alt="" />
+            </div>
+            <div className="item3">
+            </div>
+            <div className="item4">
             </div>
         </div>
         </div>
