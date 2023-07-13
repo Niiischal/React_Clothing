@@ -1,6 +1,7 @@
 import React from 'react'
 import img1 from '../../assets/img1.jpg'
 import img2 from '../../assets/img2.jpg'
+import img3 from '../../assets/img3.jpg'
 import './home.css'
 
 const Home = () => {
@@ -15,8 +16,10 @@ const Home = () => {
                 <img src={img1} alt="" />
             </div>
             <div className="item3">
+            <img src={img3} alt="" />
             </div>
             <div className="item4">
+                
             </div>
         </div>
         </div>
