@@ -3,7 +3,7 @@
     display: grid;
     grid-template-columns: 49% 49%;
     height: 120vh;
-    gap: 1%;
+    gap: 2%;
 }
 
 div>img{
@@ -39,8 +39,8 @@ div>img{
 
 .second_content_field{
     display: grid;
-    grid-template-columns: 45% 45%;
-    gap: 10%;
+    grid-template-columns: 45% 50%;
+    gap: 5%;
     height: 80vh;
     margin-top: 2rem;
 }
@@ -49,10 +49,31 @@ div>img{
     overflow: hidden;
 }
 
-.second_content_description{
-    background-color: aqua;
+.second_content_description:hover{
+    background-color: var(--color-light);
+    border-radius: 2rem;
+    transition: var(--transition);
+    cursor: pointer;
 }
 
+.description > h1{
+    color: var(--color-primary);
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.description > h2{
+    color: var(--color-black);
+    text-align: center;
+    font-size: 3rem;
+}
+
+.description > p{
+    color: var(--color-gray);
+    text-align: center;
+    margin-top: 3rem;
+}
 
 
 

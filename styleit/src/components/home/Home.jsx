@@ -29,7 +29,13 @@ const Home = () => {
                 <div className="second_content_image">
                     <img src={img4} alt="" />
                 </div>
-                <div className="second_content_description"></div>
+                <div className="second_content_description">
+                    <div className="description">
+                    <h1>StyleIt</h1>
+                    <h2>Made In Nepal.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia suscipit praesentium vero totam, minus tempore sint nulla exercitationem dignissimos voluptates iusto in nobis explicabo! Culpa ipsum beatae ducimus nesciunt voluptatem laudantium quidem laborum, tempora fuga natus eius harum quae dolor, blanditiis quibusdam itaque aut quia repellat qui accusantium aspernatur non?</p>
+                    </div>
+                </div>
             </div>
         </div>
         </div>
