@@ -28,6 +28,15 @@ div>img{
     overflow: hidden;
 }
 
+.second_content{
+    margin-top:2rem;
+}
+
+.second_content>h1{
+    color: var(--color-black);
+    text-align: center;
+}
+
 
 
 

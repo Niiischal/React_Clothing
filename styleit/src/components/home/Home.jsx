@@ -22,6 +22,9 @@ const Home = () => {
                 
             </div>
         </div>
+        <div className="second_content">
+            <h1>Get To Know Us.</h1>
+        </div>
         </div>
     </section>
   )
