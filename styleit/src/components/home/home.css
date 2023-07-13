@@ -41,13 +41,12 @@ div>img{
     display: grid;
     grid-template-columns: 45% 45%;
     gap: 10%;
-    background-color: black;
     height: 80vh;
     margin-top: 2rem;
 }
 
 .second_content_image{
-    background-color: aqua;
+    overflow: hidden;
 }
 
 .second_content_description{

@@ -2,6 +2,7 @@ import React from 'react'
 import img1 from '../../assets/img1.jpg'
 import img2 from '../../assets/img2.jpg'
 import img3 from '../../assets/img3.jpg'
+import img4 from '../../assets/img4.jpg'
 import './home.css'
 
 const Home = () => {
@@ -26,7 +27,7 @@ const Home = () => {
             <h1>Get To Know Us.</h1>
             <div className="second_content_field">
                 <div className="second_content_image">
-
+                    <img src={img4} alt="" />
                 </div>
                 <div className="second_content_description"></div>
             </div>
