@@ -38,6 +38,11 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            <div className="accordians">
+                    <div className="first_accordian_title">
+                        <h1>Men.</h1>
+                    </div>
+                </div>
         </div>
         </div>
     </section>

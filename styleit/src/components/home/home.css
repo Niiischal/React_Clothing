@@ -80,6 +80,24 @@ div>img{
     font-size: larger;
 }
 
+.accordians{
+    margin-top: 3rem;
+    height: 50vh;
+    background-color: black;
+    display: grid;
+    grid-template-rows: 18% 82%;
+}
+
+.first_accordian_title{
+    background-color: antiquewhite;
+}
+
+.first_accordian_title>h1{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
 
 
 
