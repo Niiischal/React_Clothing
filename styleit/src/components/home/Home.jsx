@@ -24,6 +24,12 @@ const Home = () => {
         </div>
         <div className="second_content">
             <h1>Get To Know Us.</h1>
+            <div className="second_content_field">
+                <div className="second_content_image">
+
+                </div>
+                <div className="second_content_description"></div>
+            </div>
         </div>
         </div>
     </section>
