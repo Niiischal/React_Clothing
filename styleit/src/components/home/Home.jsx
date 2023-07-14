@@ -3,7 +3,7 @@ import img1 from "../../assets/img1.jpg";
 import img2 from "../../assets/img2.jpg";
 import img3 from "../../assets/img3.jpg";
 import img4 from "../../assets/img4.jpg";
-import men1 from "../../assets/men1.jpg";
+import MenList from "./MenList";
 import "./home.css";
 
 const Home = () => {
@@ -47,98 +47,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="accordians">
-            <div className="first_accordian_title">
-              <h1>Men.</h1>
-              <h1 className="view">View All></h1>
-            </div>
-            <div className="items_men">
-              <div className="items">
-              <div
-                  className="card"
-                  style={{ width: "16rem", height: "51.6vh" }}
-                >
-                  <img
-                    className="card-img-top"
-                    src={men1}
-                    alt="Card image cap"
-                    style={{ height: "25vh" }}
-                  />
-                  <div className="card-body">
-                    <h5 className="card-title">Summer Knit Shirt</h5>
-                    <p></p>
-                    <p className="card-text">Rs 3000/-</p>
-                    <a href="#" className="btn">
-                      Add To Cart
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div className="items">
-              <div
-                  className="card"
-                  style={{ width: "16rem", height: "51.6vh" }}
-                >
-                  <img
-                    className="card-img-top"
-                    src={men1}
-                    alt="Card image cap"
-                    style={{ height: "25vh" }}
-                  />
-                  <div className="card-body">
-                    <h5 className="card-title">Summer Knit Shirt</h5>
-                    <p></p>
-                    <p className="card-text">Rs 3000/-</p>
-                    <a href="#" className="btn">
-                      Add To Cart
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div className="items">
-              <div
-                  className="card"
-                  style={{ width: "16rem", height: "51.6vh" }}
-                >
-                  <img
-                    className="card-img-top"
-                    src={men1}
-                    alt="Card image cap"
-                    style={{ height: "25vh" }}
-                  />
-                  <div className="card-body">
-                    <h5 className="card-title">Summer Knit Shirt</h5>
-                    <p></p>
-                    <p className="card-text">Rs 3000/-</p>
-                    <a href="#" className="btn">
-                      Add To Cart
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div className="items">
-              <div
-                  className="card"
-                  style={{ width: "16rem", height: "51.6vh" }}
-                >
-                  <img
-                    className="card-img-top"
-                    src={men1}
-                    alt="Card image cap"
-                    style={{ height: "25vh" }}
-                  />
-                  <div className="card-body">
-                    <h5 className="card-title">Summer Knit Shirt</h5>
-                    <p></p>
-                    <p className="card-text">Rs 3000/-</p>
-                    <a href="#" className="btn">
-                      Add To Cart
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          <MenList/>
         </div>
       </div>
     </section>
