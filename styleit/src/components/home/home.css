@@ -81,14 +81,12 @@ div>img{
 }
 
 .accordian_first{
-    margin-top: 3rem;
     height: 60vh;
     display: grid;
     grid-template-rows: 14% 86%;
 }
 
 .accordian_second{
-    margin-top: 3rem;
     height: 60vh;
     display: grid;
     grid-template-rows: 14% 86%;
@@ -156,32 +154,31 @@ div>img{
 }
 
 .stackedImages{
-    height: 80vh;
+    height: 100vh;
     width: 100%;
     display: flex;
-    background-color: yellow;
 }
 
 
 .first{
-    height: 70vh;
+    height: 90vh;
     width: 23%;
-    background-color: black;
     margin-top: 5vh;
+    overflow: hidden;
 }
 
 .second{
-    height: 60vh;
+    height: 80vh;
     width: 54%;
-    background-color: aqua;
     margin-top: 10vh;
+    overflow: hidden;
 }
 
 .third{
-    height: 70vh;
+    height: 90vh;
     width: 23%;
-    background-color: aquamarine;
     margin-top: 5vh;
+    overflow: hidden;
 }
 
 

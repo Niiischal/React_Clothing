@@ -7,6 +7,7 @@ import women4 from '../../assets/women4.jpg'
 
 const WomenList = () => {
   return (
+    <section>
     <div className="accordian_first">
     <div className="first_accordian_title">
       <h1>Women</h1>
@@ -99,6 +100,7 @@ const WomenList = () => {
       </div>
     </div>
   </div>
+  </section>
   )
 }
 
