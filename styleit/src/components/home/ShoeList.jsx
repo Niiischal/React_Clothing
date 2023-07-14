@@ -1,18 +1,18 @@
 import React from 'react'
-import men1 from '../../assets/men1.jpg'
-import men2 from '../../assets/men2.jpg'
-import men3 from '../../assets/men3.jpg'
-import men4 from '../../assets/men4.jpg'
+import women1 from '../../assets/women1.jpg'
+import women2 from '../../assets/women2.jpg'
+import women3 from '../../assets/women3.jpg'
+import women4 from '../../assets/women4.jpg'
 
-const MenList = () => {
+const ShoeList = () => {
   return (
     <section>
     <div className="accordian">
     <div className="first_accordian_title">
-      <h1>Men</h1>
+      <h1>Women</h1>
       <h5 className="view"><a href="">View All></a></h5>
     </div>
-    <div className="items_men">
+    <div className="items_women">
       <div className="items">
       <div
           className="card"
@@ -20,14 +20,14 @@ const MenList = () => {
         >
           <img
             className="card-img-top"
-            src={men1}
+            src={women1}
             alt="Card image cap"
             style={{ height: "25vh" }}
           />
           <div className="card-body">
-            <h5 className="card-title">Summer Knit Shirt</h5>
+            <h5 className="card-title">Spring Jacket</h5>
             <p></p>
-            <p className="card-text">Rs 3000/-</p>
+            <p className="card-text">Rs 4000/-</p>
             <a href="#" className="btn">
               Add To Cart
             </a>
@@ -41,14 +41,14 @@ const MenList = () => {
         >
           <img
             className="card-img-top"
-            src={men2}
+            src={women2}
             alt="Card image cap"
             style={{ height: "25vh" }}
           />
           <div className="card-body">
-            <h5 className="card-title">Lace Loose Shirt</h5>
+            <h5 className="card-title">Cropped Top</h5>
             <p></p>
-            <p className="card-text">Rs 2800/-</p>
+            <p className="card-text">Rs 1700/-</p>
             <a href="#" className="btn">
               Add To Cart
             </a>
@@ -62,14 +62,14 @@ const MenList = () => {
         >
           <img
             className="card-img-top"
-            src={men3}
+            src={women3}
             alt="Card image cap"
             style={{ height: "25vh" }}
           />
           <div className="card-body">
-            <h5 className="card-title">Brown Corduroy Pants</h5>
+            <h5 className="card-title">Checked Coat</h5>
             <p></p>
-            <p className="card-text">Rs 2500/-</p>
+            <p className="card-text">Rs 6000/-</p>
             <a href="#" className="btn">
               Add To Cart
             </a>
@@ -83,12 +83,12 @@ const MenList = () => {
         >
           <img
             className="card-img-top"
-            src={men4}
+            src={women4}
             alt="Card image cap"
             style={{ height: "25vh" }}
           />
           <div className="card-body">
-            <h5 className="card-title">Linen SS Shirt Sand</h5>
+            <h5 className="card-title">Cat-Print Shirt</h5>
             <p></p>
             <p className="card-text">Rs 2100/-</p>
             <a href="#" className="btn">
@@ -103,4 +103,4 @@ const MenList = () => {
   )
 }
 
-export default MenList
+export default ShoeList

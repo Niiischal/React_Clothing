@@ -4,6 +4,7 @@ import img2 from "../../assets/img2.jpg";
 import img3 from "../../assets/img3.jpg";
 import img4 from "../../assets/img4.jpg";
 import MenList from "./MenList";
+import ShoeList from "./ShoeList";
 import StackedImages from "./StackedImages";
 import WomenList from "./WomenList";
 import "./home.css";
@@ -52,6 +53,7 @@ const Home = () => {
           <MenList/>
           <WomenList/>
           <StackedImages/>
+          <ShoeList/>
         </div>
       </div>
     </section>
