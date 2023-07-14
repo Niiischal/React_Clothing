@@ -23,7 +23,7 @@ const WomenList = () => {
             className="card-img-top"
             src={women1}
             alt="Card image cap"
-            style={{ height: "25vh" }}
+            style={{ height: "23.7vh" }}
           />
           <div className="card-body">
             <h5 className="card-title">Spring Jacket</h5>
@@ -44,7 +44,7 @@ const WomenList = () => {
             className="card-img-top"
             src={women2}
             alt="Card image cap"
-            style={{ height: "25vh" }}
+            style={{ height: "23.7vh" }}
           />
           <div className="card-body">
             <h5 className="card-title">Cropped Top</h5>
@@ -65,7 +65,7 @@ const WomenList = () => {
             className="card-img-top"
             src={women3}
             alt="Card image cap"
-            style={{ height: "25vh" }}
+            style={{ height: "23.7vh" }}
           />
           <div className="card-body">
             <h5 className="card-title">Checked Coat</h5>
@@ -86,7 +86,7 @@ const WomenList = () => {
             className="card-img-top"
             src={women4}
             alt="Card image cap"
-            style={{ height: "25vh" }}
+            style={{ height: "23.7vh" }}
           />
           <div className="card-body">
             <h5 className="card-title">Cat-Print Shirt</h5>

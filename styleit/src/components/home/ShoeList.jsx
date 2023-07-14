@@ -7,7 +7,7 @@ import shoe4 from '../../assets/shoe4.jpg'
 const ShoeList = () => {
   return (
     <section>
-    <div className="accordian">
+    <div className="accordian_shoe">
     <div className="first_accordian_title">
       <h1>Shoe</h1>
       <h5 className="view"><a href="">View All></a></h5>

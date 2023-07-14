@@ -86,6 +86,12 @@ div>img{
     grid-template-rows: 14% 86%;
 }
 
+.accordian_shoe{
+    height: 66vh;
+    display: grid;
+    grid-template-rows: 14% 86%;
+}
+
 
 .first_accordian_title{
     display: flex;

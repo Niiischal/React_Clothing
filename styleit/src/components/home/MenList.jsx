@@ -22,7 +22,7 @@ const MenList = () => {
             className="card-img-top"
             src={men1}
             alt="Card image cap"
-            style={{ height: "25vh" }}
+            style={{ height: "23.7vh" }}
           />
           <div className="card-body">
             <h5 className="card-title">Summer Knit Shirt</h5>
@@ -43,7 +43,7 @@ const MenList = () => {
             className="card-img-top"
             src={men2}
             alt="Card image cap"
-            style={{ height: "25vh" }}
+            style={{ height: "23.7vh" }}
           />
           <div className="card-body">
             <h5 className="card-title">Lace Loose Shirt</h5>
@@ -64,7 +64,7 @@ const MenList = () => {
             className="card-img-top"
             src={men3}
             alt="Card image cap"
-            style={{ height: "25vh" }}
+            style={{ height: "23.7vh" }}
           />
           <div className="card-body">
             <h5 className="card-title">Brown Corduroy Pants</h5>
@@ -85,7 +85,7 @@ const MenList = () => {
             className="card-img-top"
             src={men4}
             alt="Card image cap"
-            style={{ height: "25vh" }}
+            style={{ height: "23.7vh" }}
           />
           <div className="card-body">
             <h5 className="card-title">Linen SS Shirt Sand</h5>
