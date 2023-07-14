@@ -96,19 +96,12 @@ div>img{
 .first_accordian_title{
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 
 .first_accordian_title>h1{
     font-size: 2rem;
     padding: 0.8rem 0 0 0.5rem;
-}
-
-.first_accordian_title>h1::after{
-    content: '-----';
-    width: 10vh;
-    color: rgb(231, 181, 88);
-    font-family: 'Courier New', Courier, monospace;
-
 }
 
 .first_accordian_title>hr{
