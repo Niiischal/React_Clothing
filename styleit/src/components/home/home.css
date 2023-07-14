@@ -82,10 +82,9 @@ div>img{
 
 .accordians{
     margin-top: 3rem;
-    height: 50vh;
-    background-color: black;
+    height: 60vh;
     display: grid;
-    grid-template-rows: 18% 82%;
+    grid-template-rows: 14% 86%;
 }
 
 .first_accordian_title{
@@ -100,6 +99,23 @@ div>img{
 
 .first_accordian_title > .view{
     padding-right: 0.5rem;
+}
+
+.items_men{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 31px;
+}
+
+
+.card>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-body>.btn{
+    border-radius: 0%;
 }
 
 
