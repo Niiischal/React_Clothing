@@ -6,9 +6,9 @@ import men4 from '../../assets/men4.jpg'
 
 const MenList = () => {
   return (
-    <div className="accordian_first">
+    <div className="accordian_second">
     <div className="first_accordian_title">
-      <h1>Men.</h1>
+      <h1>Men</h1>
       <h5 className="view"><a href="">View All></a></h5>
     </div>
     <div className="items_men">
