@@ -139,7 +139,6 @@ div>img{
     gap: 31px;
 }
 
-
 .card>img{
     height: 100%;
     width: 100%;
@@ -155,6 +154,68 @@ div>img{
 .card-body>a{
     border-radius: 0%;
 }
+
+.stackedImages{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    background-color: yellow;
+}
+
+
+.first{
+    height: 70vh;
+    width: 23%;
+    background-color: black;
+    margin-top: 5vh;
+}
+
+.second{
+    height: 60vh;
+    width: 54%;
+    background-color: aqua;
+    margin-top: 10vh;
+}
+
+.third{
+    height: 70vh;
+    width: 23%;
+    background-color: aquamarine;
+    margin-top: 5vh;
+}
+
+
+
+
+/* .second{
+    height: 48%;
+    width: 70%;
+    background-color: aqua;
+    margin-right: 22px;
+    position: relative;
+    margin-left: 1px;
+
+}
+
+.third{
+    height: 48%;
+    width: 70%;
+    background-color: aquamarine;
+    margin-top: 270px;
+    margin-left: -72px;
+    position: relative;
+}
+
+.fourth{
+    height: 60%;
+    width: 15%;
+    background-color: blue;
+    margin-left: 30px;
+    position: relative;
+} */
+
+
+
 
 
 
