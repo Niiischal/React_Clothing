@@ -89,24 +89,19 @@ div>img{
 }
 
 .first_accordian_title{
-    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
 }
 
 .first_accordian_title>h1{
-    display: flex;
-    justify-content: flex-start;
     font-size: 2rem;
-    padding: auto;
+    padding: 0.5rem 0 0 0.5rem;
 }
 
-.first_accordian_title>h1>::after{
-    content:'';
-    width: 100%;
-    height: 0.5rem;
-    margin-top: 2.5rem;
-    margin-right: 20%;
-    background: var(--color-primary);
+.first_accordian_title > .view{
+    padding-right: 0.5rem;
 }
+
 
 
 

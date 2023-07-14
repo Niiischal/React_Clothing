@@ -41,6 +41,7 @@ const Home = () => {
             <div className="accordians">
                     <div className="first_accordian_title">
                         <h1>Men.</h1>
+                        <h1 className='view'>View All></h1>
                     </div>
                 </div>
         </div>
