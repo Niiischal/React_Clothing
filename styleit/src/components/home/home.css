@@ -175,35 +175,16 @@ div>img{
     overflow: hidden;
 }
 
-
-
-
-/* .second{
-    height: 48%;
-    width: 70%;
-    background-color: aqua;
-    margin-right: 22px;
-    position: relative;
-    margin-left: 1px;
-
+.map{
+    height: 60vh;
+    width: 100%;
+    border: 2px solid black;
 }
 
-.third{
-    height: 48%;
-    width: 70%;
-    background-color: aquamarine;
-    margin-top: 270px;
-    margin-left: -72px;
-    position: relative;
+.map>iframe{
+    height: 100%;
+    width: 100%;
 }
-
-.fourth{
-    height: 60%;
-    width: 15%;
-    background-color: blue;
-    margin-left: 30px;
-    position: relative;
-} */
 
 
 

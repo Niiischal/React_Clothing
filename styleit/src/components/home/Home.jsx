@@ -3,6 +3,7 @@ import img1 from "../../assets/img1.jpg";
 import img2 from "../../assets/img2.jpg";
 import img3 from "../../assets/img3.jpg";
 import img4 from "../../assets/img4.jpg";
+import Map from "./Map";
 import MenList from "./MenList";
 import ShoeList from "./ShoeList";
 import StackedImages from "./StackedImages";
@@ -54,6 +55,7 @@ const Home = () => {
           <WomenList/>
           <StackedImages/>
           <ShoeList/>
+          <Map/>
         </div>
       </div>
     </section>
