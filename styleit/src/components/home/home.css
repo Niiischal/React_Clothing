@@ -176,6 +176,7 @@ div>img{
 }
 
 .map{
+    margin-top: 1.5rem;
     height: 60vh;
     width: 100%;
     border: 2px solid black;
