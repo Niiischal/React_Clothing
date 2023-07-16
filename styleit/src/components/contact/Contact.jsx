@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <div className="container">
       <section>
-        <h1>Lets Get Connected</h1>
+        <h1>Get In Touch</h1>
         <div className="contact_content">
           <div className="connection">
             <article>
