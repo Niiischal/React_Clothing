@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 import women1 from '../../assets/women1.jpg'
 import women2 from '../../assets/women2.jpg'
 import women3 from '../../assets/women3.jpg'
@@ -11,7 +12,8 @@ const WomenList = () => {
     <div className="accordian">
     <div className="first_accordian_title">
       <h1>Women</h1>
-      <h5 className="view"><a href="">View All></a></h5>
+      <h5 className="view"><NavLink to
+      ="/women">View All></NavLink></h5>
     </div>
     <div className="items_women">
       <div className="items">
