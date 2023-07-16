@@ -3,6 +3,7 @@ import { AiFillFacebook, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai'
 import { GrMail } from 'react-icons/gr';
 import { ImLocation } from 'react-icons/im';
 import { MdCall } from 'react-icons/md';
+import { NavLink } from 'react-router-dom';
 import './footer.css';
 
 const Footer = () => {
@@ -26,19 +27,29 @@ const Footer = () => {
         <h5>Pages</h5>
         <ul>
             <li>
-                <a href="/"><p>Home</p></a>
+                <NavLink to="/" style={({ isActive }) => ({
+          color: isActive ? "var(--color-primary)" : ""
+        })}><p>Home</p></NavLink>
             </li>
             <li>
-            <a href="/"><p>Men</p></a>
+            <NavLink to="/men" style={({ isActive }) => ({
+          color: isActive ? "var(--color-primary)" : ""
+        })}><p>Men</p></NavLink>
             </li>
             <li>
-            <a href="/"><p>women</p></a>
+            <NavLink to="/women" style={({ isActive }) => ({
+          color: isActive ? "var(--color-primary)" : ""
+        })}><p>women</p></NavLink>
             </li>
             <li>
-            <a href="/"><p>Shoes</p></a>
+            <NavLink to="/shoes" style={({ isActive }) => ({
+          color: isActive ? "var(--color-primary)" : ""
+        })}><p>Shoes</p></NavLink>
             </li>
             <li>
-            <a href="/"><p>Contact</p></a>
+            <NavLink to="/contact" style={({ isActive }) => ({
+          color: isActive ? "var(--color-primary)" : ""
+        })}><p>Contact</p></NavLink>
             </li>
         </ul>
         <div>
