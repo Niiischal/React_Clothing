@@ -1,7 +1,8 @@
 import React from 'react'
-import { AiOutlineHome, AiOutlineUser } from 'react-icons/ai'
+import { AiOutlineHome } from 'react-icons/ai'
 import { GiConverseShoe } from 'react-icons/gi'
 import { ImMan, ImWoman } from 'react-icons/im'
+import { MdContactPage } from 'react-icons/md'
 import './bottomnav.css'
 
 const Bottomnav = () => {
@@ -12,7 +13,7 @@ const Bottomnav = () => {
         <a href="/"><ImMan/></a>
         <a href="/"><ImWoman/></a>
         <a href="/"><GiConverseShoe/></a>
-        <a href="/"><AiOutlineUser/></a>
+        <a href="/"><MdContactPage/></a>
       </nav>
     </div>
   )
