@@ -11,24 +11,24 @@ const Bottomnav = () => {
     <div>
       <nav>
         <NavLink to="/" style={({ isActive }) => ({
-          color: isActive ? "var(--color-black)" : "",
-          background: isActive ? "rgba(205, 198, 198, 0.4)" : "",
+          color: isActive ? "var(--color-primary)" : "",
+          background: isActive ? "rgba(48, 46, 46, 0.4)" : "",
         })}><AiOutlineHome/></NavLink>
         <NavLink to="/men" style={({ isActive }) => ({
-          color: isActive ? "var(--color-black)" : "",
-          background: isActive ? "rgba(205, 198, 198, 0.4)" : "",
+          color: isActive ? "var(--color-primary)" : "",
+          background: isActive ? "rgba(48, 46, 46, 0.4)" : "",
         })}><ImMan/></NavLink>
         <NavLink to="/women" style={({ isActive }) => ({
-          color: isActive ? "var(--color-black)" : "",
-          background: isActive ? "rgba(205, 198, 198, 0.4)" : "",
+          color: isActive ? "var(--color-primary)" : "",
+          background: isActive ? "rgba(48, 46, 46, 0.4)" : "",
         })}><ImWoman/></NavLink>
         <NavLink to="/shoes" style={({ isActive }) => ({
-          color: isActive ? "var(--color-black)" : "",
-          background: isActive ? "rgba(205, 198, 198, 0.4)" : "",
+          color: isActive ? "var(--color-primary)" : "",
+          background: isActive ? "rgba(48, 46, 46, 0.4)" : "",
         })}><GiConverseShoe/></NavLink>
         <NavLink to="/contact" style={({ isActive }) => ({
-          color: isActive ? "var(--color-black)" : "",
-          background: isActive ? "rgba(205, 198, 198, 0.4)" : "",
+          color: isActive ? "var(--color-primary)" : "",
+          background: isActive ? "rgba(48, 46, 46, 0.4)" : "",
         })}><MdContactPage/></NavLink>
       </nav>
     </div>
