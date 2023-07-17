@@ -20,6 +20,14 @@
     margin-top: 10px;
 }
 
+.top>a{
+    color: var(--color-primary);
+}
+
+.search>a{
+    color: var(--color-primary);
+}
+
 .profile_icon{
     font-size: 1.7rem;
     margin-top: 12px;

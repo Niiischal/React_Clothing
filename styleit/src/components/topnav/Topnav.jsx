@@ -8,11 +8,11 @@ const Topnav = () => {
   return (
 <>
 <div className="container top">
-    <CgProfile className='profile_icon'/>
+    <a href=""><CgProfile className='profile_icon'/></a>
     <h1>StyleIt</h1>
     <div className="search">
-    <FiSearch className='search_icon' type='search'/>
-    <AiOutlineShoppingCart className='cart_icon'/>
+    <a href=""><FiSearch className='search_icon' type='search'/></a>
+    <a href=""><AiOutlineShoppingCart className='cart_icon'/></a>
 </div>
 </div>
 </>
