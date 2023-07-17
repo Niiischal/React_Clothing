@@ -50,7 +50,18 @@ const Topnav = () => {
 </div>
     </div>
     <div>
-    <a href=""><AiOutlineShoppingCart className='cart_icon'/></a>
+    <a data-coreui-toggle="offcanvas" href="#offcanvasExample2" role="button" aria-controls="offcanvasExample2"><AiOutlineShoppingCart className='cart_icon'/></a>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample2" aria-labelledby="offcanvasExampleLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+    <button type="button" class="btn-close text-reset" data-coreui-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <div>
+      Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+    </div>
+  </div>
+</div>
     </div>
 </div>
 </div>
