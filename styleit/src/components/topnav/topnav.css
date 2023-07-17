@@ -20,7 +20,7 @@
     margin-top: 10px;
 }
 
-.top>a{
+.top> div> a{
     color: var(--color-primary);
 }
 
