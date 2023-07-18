@@ -46,8 +46,8 @@
 
 .offcanvas-body{
     display: grid;
-    grid-template-rows: 20% 70%;
-    gap: 10%;
+    grid-template-rows: 20% 67% 10%;
+    gap: 3%;
     width: 80%;
     margin-left: 10%;
 }
@@ -78,6 +78,10 @@
 .profile_content>h5>span{
     font-size: .8rem;
     color: var(--color-gray);
+}
+
+.change_button{
+    margin-left: 15%;
 }
 
 

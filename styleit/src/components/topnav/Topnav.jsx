@@ -29,6 +29,9 @@ const Topnav = () => {
       <h5>Email: <span>nischal.khatiwada745@gmail.com</span></h5>
       <h5>Contact: <span>9807936169</span></h5>
     </div>
+    <div className="change_button">
+      <a href="" className='btn'>Change Profile</a>
+    </div>
   </div>
 </div>
     </div>
