@@ -1,9 +1,23 @@
-import React from 'react'
-import { BsMessenger } from 'react-icons/bs'
-import { MdEmail } from 'react-icons/md'
-import './contact.css'
+import emailjs from 'emailjs-com';
+import React, { useRef } from 'react';
+import { BsMessenger } from 'react-icons/bs';
+import { MdEmail } from 'react-icons/md';
+import './contact.css';
 
 const Contact = () => {
+    const form = useRef();
+  
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs.sendForm('service_5m038wm', 'template_tft2x55', form.current, 'LJ2_v178sI1TceSLs')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+    };
+
   return (
     <div className="container">
       <section>
@@ -24,7 +38,7 @@ const Contact = () => {
             </article>
           </div>
           <div className="form">
-            <form action="submit">
+            <form ref={form} onSubmit={sendEmail}>
               <input type="text" name='name' placeholder='Your Full Name' required/>
               <input type="text" name='email' placeholder='Your Email' required/>
               <textarea name="message"  rows="6" placeholder='Your Message' required></textarea>
