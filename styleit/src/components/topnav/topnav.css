@@ -84,6 +84,28 @@
     margin-left: 15%;
 }
 
+.offcanvas-body_search{
+    height: 50%;
+    width: 80%;
+    margin-left: 10%;
+}
+
+
+.search_box>form{
+    display: grid;
+    grid-template-columns: 75% 20%;
+    height: 50%;
+    gap: 5%;
+}
+
+form> .searchBox{
+    margin-top: 20px;
+}
+
+form> .searchButton{
+    margin-top: 13px;
+}
+
 
 @media screen and (max-width: 600px) {
     .top{

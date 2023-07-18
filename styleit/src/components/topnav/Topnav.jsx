@@ -41,12 +41,15 @@ const Topnav = () => {
     <a data-coreui-toggle="offcanvas" href="#offcanvasExample1" role="button" aria-controls="offcanvasExample1"><FiSearch className='search_icon' type='search'/></a>
     <div className="offcanvas offcanvas-top" tabindex="-1" id="offcanvasExample1" aria-labelledby="offcanvasExampleLabel">
   <div className="offcanvas-header">
-    <h5 className="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+    <h5 className="offcanvas-title" id="offcanvasExampleLabel">Search</h5>
     <button type="button" className="btn-close text-reset" data-coreui-dismiss="offcanvas" aria-label="Close"></button>
   </div>
-  <div className="offcanvas-body">
-    <div>
-      ...
+  <div className="offcanvas-body_search">
+    <div className='search_box'>
+    <form role="search">
+      <div className='searchBox'><input type="search" placeholder="Search" aria-label="Search"/></div>
+      <div className='searchButton'><button className="btn" type="submit">Search</button></div>
+      </form>
     </div>
   </div>
 </div>
