@@ -2,6 +2,7 @@ import React from 'react'
 import { AiOutlineShoppingCart } from 'react-icons/ai'
 import { CgProfile } from 'react-icons/cg'
 import { FiSearch } from 'react-icons/fi'
+import nischal from '../../assets/nischal.jpg'
 import './topnav.css'
 
 const Topnav = () => {
@@ -18,7 +19,7 @@ const Topnav = () => {
   </div>
   <div className="offcanvas-body">
     <div className='profile_photo'>
-      <img src="" alt="" />
+      <img src={nischal} alt="" />
     </div>
     <div className="profile_content">
       

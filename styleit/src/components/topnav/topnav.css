@@ -46,7 +46,6 @@
     display: grid;
     grid-template-rows: 22% 67%;
     gap: 10%;
-    background-color: black;
     width: 80%;
     margin-left: 10%;
 }
@@ -56,10 +55,18 @@
     border-radius: 50%;
     width: 50%;
     margin-left: 25%;
+    border: 1px solid black;
+}
+
+.profile_photo>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
 .profile_content{
-    background-color: aqua;
+    border: 1px solid black;
 }
 
 
