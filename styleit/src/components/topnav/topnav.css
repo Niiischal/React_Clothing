@@ -44,15 +44,14 @@
 
 .offcanvas-body{
     display: grid;
-    grid-template-rows: 22% 67%;
+    grid-template-rows: 20% 70%;
     gap: 10%;
     width: 80%;
     margin-left: 10%;
 }
 
 .profile_photo{
-    background-color:blue;
-    border-radius: 50%;
+    background-color: transparent;
     width: 50%;
     margin-left: 25%;
     border: 1px solid black;
@@ -61,8 +60,7 @@
 .profile_photo>img{
     height: 100%;
     width: 100%;
-    object-fit: cover;
-    border-radius: 50%;
+    object-fit: contain;
 }
 
 .profile_content{
