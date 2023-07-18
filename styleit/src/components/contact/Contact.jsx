@@ -1,5 +1,5 @@
 import emailjs from 'emailjs-com';
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import { BsMessenger } from 'react-icons/bs';
 import { MdEmail } from 'react-icons/md';
 import './contact.css';
@@ -7,8 +7,7 @@ import './contact.css';
 const Contact = () => {
     const form = useRef();
   
-    const sendEmail = (e) => {
-      e.preventDefault();
+    const sendEmail = () => {
   
       emailjs.sendForm('service_5m038wm', 'template_tft2x55', form.current, 'LJ2_v178sI1TceSLs')
         .then((result) => {
@@ -17,6 +16,22 @@ const Contact = () => {
             console.log(error.text);
         });
     };
+
+    const alertMessage=()=>{
+      alert('Form Submitted....');
+    }
+
+    const[name, setName]=useState('')
+    const[email, setEmail]=useState('')
+    const[message, setMessage]=useState('')
+
+    const handleOnClick=()=>{
+      sendEmail();
+      setName('');
+      setEmail('');
+      setMessage('');
+      alertMessage();
+    }
 
   return (
     <div className="container">
@@ -38,10 +53,10 @@ const Contact = () => {
             </article>
           </div>
           <div className="form">
-            <form ref={form} onSubmit={sendEmail}>
-              <input type="text" name='name' placeholder='Your Full Name' required/>
-              <input type="text" name='email' placeholder='Your Email' required/>
-              <textarea name="message"  rows="6" placeholder='Your Message' required></textarea>
+            <form ref={form} onSubmit={handleOnClick}>
+              <input type="text" name='name' placeholder='Your Full Name'  value={name} onChange={event => setName(event.target.value)} required/>
+              <input type="text" name='email' placeholder='Your Email' value={email} onChange={event => setEmail(event.target.value)} required/>
+              <textarea name="message"  rows="6" placeholder='Your Message' value={message} onChange={event => setMessage(event.target.value)} required></textarea>
               <button type='submit' className='btn'> Send Message</button>
             </form>
           </div>
