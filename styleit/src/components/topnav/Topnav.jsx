@@ -22,7 +22,12 @@ const Topnav = () => {
       <img src={nischal} alt="" />
     </div>
     <div className="profile_content">
-      
+      <h5>Last Name: <span>Khatiwada</span></h5>
+      <h5>First Name: <span>Nischal</span></h5>
+      <h5>Gender: <span>Male</span></h5>
+      <h5>Address: <span>Ratopul, Kathmandu</span></h5>
+      <h5>Email: <span>nischal.khatiwada745@gmail.com</span></h5>
+      <h5>Contact: <span>9807936169</span></h5>
     </div>
   </div>
 </div>
