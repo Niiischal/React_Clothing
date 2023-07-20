@@ -1,0 +1,11 @@
+.Men>h1{
+    text-align: center;
+}
+
+.mens_items{
+    display: grid;
+    grid-template-columns: 1fr 1fr  1fr 1fr;
+    margin-top: 2rem;
+    background-color: black;
+    gap: 3.2rem;
+}
