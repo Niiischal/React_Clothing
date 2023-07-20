@@ -10,66 +10,177 @@ const Men = () => {
           <div class="card" style={{width: '15rem'}}>
             <img class="card-img-top" src="" alt="" />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="/" class="btn">
-                Go somewhere
-              </a>
+            <h5 className="card-title">Summer Knit Shirt</h5>
+            <p></p>
+            <p className="card-text">Rs 3000/-</p>
+            <a href="#" className="btn">
+              Add To Cart
+            </a>
             </div>
           </div>
           <div class="card" style={{width: '15rem'}}>
             <img class="card-img-top" src="" alt="" />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="/" class="btn">
-                Go somewhere
-              </a>
+            <h5 className="card-title">Summer Knit Shirt</h5>
+            <p></p>
+            <p className="card-text">Rs 3000/-</p>
+            <a href="#" className="btn">
+              Add To Cart
+            </a>
             </div>
           </div>
           <div class="card" style={{width: '15rem'}}>
             <img class="card-img-top" src="" alt="" />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="/" class="btn">
-                Go somewhere
-              </a>
+            <h5 className="card-title">Summer Knit Shirt</h5>
+            <p></p>
+            <p className="card-text">Rs 3000/-</p>
+            <a href="#" className="btn">
+              Add To Cart
+            </a>
             </div>
           </div>
           <div class="card" style={{width: '15rem'}}>
             <img class="card-img-top" src="" alt="" />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="/" class="btn">
-                Go somewhere
-              </a>
+            <h5 className="card-title">Summer Knit Shirt</h5>
+            <p></p>
+            <p className="card-text">Rs 3000/-</p>
+            <a href="#" className="btn">
+              Add To Cart
+            </a>
             </div>
           </div>
           <div class="card" style={{width: '15rem'}}>
             <img class="card-img-top" src="" alt="" />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="/" class="btn">
-                Go somewhere
-              </a>
+            <h5 className="card-title">Summer Knit Shirt</h5>
+            <p></p>
+            <p className="card-text">Rs 3000/-</p>
+            <a href="#" className="btn">
+              Add To Cart
+            </a>
+            </div>
+          </div>
+          <div class="card" style={{width: '15rem'}}>
+            <img class="card-img-top" src="" alt="" />
+            <div class="card-body">
+            <h5 className="card-title">Summer Knit Shirt</h5>
+            <p></p>
+            <p className="card-text">Rs 3000/-</p>
+            <a href="#" className="btn">
+              Add To Cart
+            </a>
+            </div>
+          </div>
+          <div class="card" style={{width: '15rem'}}>
+            <img class="card-img-top" src="" alt="" />
+            <div class="card-body">
+            <h5 className="card-title">Summer Knit Shirt</h5>
+            <p></p>
+            <p className="card-text">Rs 3000/-</p>
+            <a href="#" className="btn">
+              Add To Cart
+            </a>
+            </div>
+          </div>
+          <div class="card" style={{width: '15rem'}}>
+            <img class="card-img-top" src="" alt="" />
+            <div class="card-body">
+            <h5 className="card-title">Summer Knit Shirt</h5>
+            <p></p>
+            <p className="card-text">Rs 3000/-</p>
+            <a href="#" className="btn">
+              Add To Cart
+            </a>
+            </div>
+          </div>
+          <div class="card" style={{width: '15rem'}}>
+            <img class="card-img-top" src="" alt="" />
+            <div class="card-body">
+            <h5 className="card-title">Summer Knit Shirt</h5>
+            <p></p>
+            <p className="card-text">Rs 3000/-</p>
+            <a href="#" className="btn">
+              Add To Cart
+            </a>
+            </div>
+          </div>
+          <div class="card" style={{width: '15rem'}}>
+            <img class="card-img-top" src="" alt="" />
+            <div class="card-body">
+            <h5 className="card-title">Summer Knit Shirt</h5>
+            <p></p>
+            <p className="card-text">Rs 3000/-</p>
+            <a href="#" className="btn">
+              Add To Cart
+            </a>
+            </div>
+          </div>
+          <div class="card" style={{width: '15rem'}}>
+            <img class="card-img-top" src="" alt="" />
+            <div class="card-body">
+            <h5 className="card-title">Summer Knit Shirt</h5>
+            <p></p>
+            <p className="card-text">Rs 3000/-</p>
+            <a href="#" className="btn">
+              Add To Cart
+            </a>
+            </div>
+          </div>
+          <div class="card" style={{width: '15rem'}}>
+            <img class="card-img-top" src="" alt="" />
+            <div class="card-body">
+            <h5 className="card-title">Summer Knit Shirt</h5>
+            <p></p>
+            <p className="card-text">Rs 3000/-</p>
+            <a href="#" className="btn">
+              Add To Cart
+            </a>
+            </div>
+          </div>
+          <div class="card" style={{width: '15rem'}}>
+            <img class="card-img-top" src="" alt="" />
+            <div class="card-body">
+            <h5 className="card-title">Summer Knit Shirt</h5>
+            <p></p>
+            <p className="card-text">Rs 3000/-</p>
+            <a href="#" className="btn">
+              Add To Cart
+            </a>
+            </div>
+          </div>
+          <div class="card" style={{width: '15rem'}}>
+            <img class="card-img-top" src="" alt="" />
+            <div class="card-body">
+            <h5 className="card-title">Summer Knit Shirt</h5>
+            <p></p>
+            <p className="card-text">Rs 3000/-</p>
+            <a href="#" className="btn">
+              Add To Cart
+            </a>
+            </div>
+          </div>
+          <div class="card" style={{width: '15rem'}}>
+            <img class="card-img-top" src="" alt="" />
+            <div class="card-body">
+            <h5 className="card-title">Summer Knit Shirt</h5>
+            <p></p>
+            <p className="card-text">Rs 3000/-</p>
+            <a href="#" className="btn">
+              Add To Cart
+            </a>
+            </div>
+          </div>
+          <div class="card" style={{width: '15rem'}}>
+            <img class="card-img-top" src="" alt="" />
+            <div class="card-body">
+            <h5 className="card-title">Summer Knit Shirt</h5>
+            <p></p>
+            <p className="card-text">Rs 3000/-</p>
+            <a href="#" className="btn">
+              Add To Cart
+            </a>
             </div>
           </div>
         </div>
