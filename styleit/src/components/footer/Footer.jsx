@@ -42,9 +42,9 @@ const Footer = () => {
         })}><p>women</p></NavLink>
             </li>
             <li>
-            <NavLink to="/shoes" style={({ isActive }) => ({
+            <NavLink to="/sneakers" style={({ isActive }) => ({
           color: isActive ? "var(--color-primary)" : ""
-        })}><p>Shoes</p></NavLink>
+        })}><p>Sneakers</p></NavLink>
             </li>
             <li>
             <NavLink to="/contact" style={({ isActive }) => ({

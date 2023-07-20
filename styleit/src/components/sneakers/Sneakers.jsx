@@ -11,8 +11,8 @@ import shoe6 from '../../assets/shoe6.jpg'
 import shoe7 from '../../assets/shoe7.jpg'
 import shoe8 from '../../assets/shoe8.jpg'
 import shoe9 from '../../assets/shoe9.jpg'
-import './shoes.css'
-const Shoes = () => {
+import './sneakers.css'
+const Sneakers = () => {
   return (
     <section>
       <div className="container Shoes">
@@ -156,4 +156,4 @@ const Shoes = () => {
   )
 }
 
-export default Shoes
+export default Sneakers

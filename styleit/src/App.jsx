@@ -5,7 +5,7 @@ import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import Home from './components/home/Home';
 import Men from './components/men/Men';
-import Shoes from './components/shoes/Shoes';
+import Sneakers from './components/sneakers/Sneakers';
 import Topnav from './components/topnav/Topnav';
 import Women from './components/women/Women';
 
@@ -18,7 +18,7 @@ const App = () => {
   <Route exact path='/' element={<Home/>}/>
   <Route exact path='/men' element={<Men/>}/>
   <Route exact path='/women' element={<Women/>}/>
-  <Route exact path='/shoes' element={<Shoes/>}/>
+  <Route exact path='/sneakers' element={<Sneakers/>}/>
   <Route exact path='/contact' element={<Contact/>}/>
 </Routes>
 <Bottomnav/>

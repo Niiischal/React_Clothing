@@ -22,7 +22,7 @@ const Bottomnav = () => {
           color: isActive ? "var(--color-primary)" : "",
           background: isActive ? "rgba(48, 46, 46, 0.4)" : "",
         })}><ImWoman/></NavLink>
-        <NavLink to="/shoes" style={({ isActive }) => ({
+        <NavLink to="/sneakers" style={({ isActive }) => ({
           color: isActive ? "var(--color-primary)" : "",
           background: isActive ? "rgba(48, 46, 46, 0.4)" : "",
         })}><GiConverseShoe/></NavLink>
