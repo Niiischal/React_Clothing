@@ -1,7 +1,6 @@
 import emailjs from 'emailjs-com';
 import React, { useRef, useState } from 'react';
-import { BsMessenger } from 'react-icons/bs';
-import { MdEmail } from 'react-icons/md';
+import { BsInstagram, BsMessenger } from 'react-icons/bs';
 import './contact.css';
 
 const Contact = () => {
@@ -40,16 +39,16 @@ const Contact = () => {
         <div className="contact_content">
           <div className="connection">
             <article>
-            <MdEmail className='icon'/>
-              <h4>Email</h4>
-              <h5>nischal.khatiwada745@gmail.com</h5>
-              <a href="mailto: nischal.khatiwada745@gmail.com" target='_blank'>Send an email</a>
+            <BsInstagram className='icon'/>
+              <h4>Instagram</h4>
+              <h5>Nischal Khatiwada</h5>
+              <a href="https://ig.me/m/nischal_khatiwada_7" target='_blank'>Send a Message</a>
             </article>
             <article>
             <BsMessenger className='icon'/>
               <h4>Messenger</h4>
               <h5>Nischal Khatiwada</h5>
-              <a href="https://m.me/khatiwada.Nishal" target='_blank'>Send a message</a>
+              <a href="https://m.me/khatiwada.Nishal" target='_blank'>Send a Message</a>
             </article>
           </div>
           <div className="form">
