@@ -7,8 +7,19 @@
     border-top: 1px solid black;
 }
 
+.card>img{
+    border-radius: 0;
+    height: 40vh;
+}
+
+
+
 .card-body{
     border: 1px solid black;
+}
+
+.card-body>h5{
+    font-size: 1.2rem;
 }
 
 .mens_items{

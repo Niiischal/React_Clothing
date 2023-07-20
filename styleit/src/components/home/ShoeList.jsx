@@ -17,7 +17,7 @@ const ShoeList = () => {
       <div className="items">
       <div
           className="card"
-          style={{ width: "16rem", height: "51.6vh" }}
+          style={{ width: "16rem", height: "57vh" }}
         >
           <img
             className="card-img-top"
@@ -38,7 +38,7 @@ const ShoeList = () => {
       <div className="items">
       <div
           className="card"
-          style={{ width: "16rem", height: "51.6vh" }}
+          style={{ width: "16rem", height: "57vh" }}
         >
           <img
             className="card-img-top"
@@ -59,7 +59,7 @@ const ShoeList = () => {
       <div className="items">
       <div
           className="card"
-          style={{ width: "16rem", height: "51.6vh" }}
+          style={{ width: "16rem", height: "57vh" }}
         >
           <img
             className="card-img-top"
@@ -80,7 +80,7 @@ const ShoeList = () => {
       <div className="items">
       <div
           className="card"
-          style={{ width: "16rem", height: "51.6vh" }}
+          style={{ width: "16rem", height: "57vh" }}
         >
           <img
             className="card-img-top"

@@ -141,11 +141,6 @@ div>img{
     object-fit: cover;
 }
 
-
-.card-body{
-    background-color: rgb(240, 240, 240);
-}
-
 .card-body>a{
     border-radius: 0%;
 }

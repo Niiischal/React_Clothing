@@ -1,4 +1,8 @@
 import React from "react";
+import men1 from '../../assets/men1.jpg';
+import men2 from '../../assets/men2.jpg';
+import men3 from '../../assets/men3.jpg';
+import men4 from '../../assets/men4.jpg';
 import "./men.css";
 
 const Men = () => {
@@ -8,7 +12,7 @@ const Men = () => {
         <h1>Men's Clothes</h1>
         <div className="mens_items">
           <div className="card" style={{width: '15rem', height:'70vh'}}>
-            <img className="card-img-top" src="" alt="" />
+            <img className="card-img-top" src={men1} alt="" />
             <div className="card-body">
             <h5 className="card-title">Summer Knit Shirt</h5>
             <p></p>
@@ -19,7 +23,7 @@ const Men = () => {
             </div>
           </div>
           <div className="card" style={{width: '15rem'}}>
-            <img className="card-img-top" src="" alt="" />
+            <img className="card-img-top" src={men2} alt="" />
             <div className="card-body">
             <h5 className="card-title">Summer Knit Shirt</h5>
             <p></p>
@@ -30,22 +34,22 @@ const Men = () => {
             </div>
           </div>
           <div className="card" style={{width: '15rem'}}>
-            <img className="card-img-top" src="" alt="" />
+            <img className="card-img-top" src={men3} alt="" />
             <div className="card-body">
-            <h5 className="card-title">Summer Knit Shirt</h5>
+            <h5 className="card-title">Lace Loose Shirt</h5>
             <p></p>
-            <p className="card-text">Rs 3000/-</p>
+            <p className="card-text">Rs 2800/-</p>
             <a href="#" className="btn">
               Add To Cart
             </a>
             </div>
           </div>
           <div className="card" style={{width: '15rem'}}>
-            <img className="card-img-top" src="" alt="" />
+            <img className="card-img-top" src={men4} alt="" />
             <div className="card-body">
-            <h5 className="card-title">Summer Knit Shirt</h5>
+            <h5 className="card-title">Brown Corduroy Pants</h5>
             <p></p>
-            <p className="card-text">Rs 3000/-</p>
+            <p className="card-text">Rs 2500/-</p>
             <a href="#" className="btn">
               Add To Cart
             </a>
@@ -54,53 +58,9 @@ const Men = () => {
           <div className="card" style={{width: '15rem', height:'70vh'}}>
             <img className="card-img-top" src="" alt="" />
             <div className="card-body">
-            <h5 className="card-title">Summer Knit Shirt</h5>
+            <h5 className="card-title">Linen SS Shirt Sand</h5>
             <p></p>
-            <p className="card-text">Rs 3000/-</p>
-            <a href="#" className="btn">
-              Add To Cart
-            </a>
-            </div>
-          </div>
-          <div className="card" style={{width: '15rem'}}>
-            <img className="card-img-top" src="" alt="" />
-            <div className="card-body">
-            <h5 className="card-title">Summer Knit Shirt</h5>
-            <p></p>
-            <p className="card-text">Rs 3000/-</p>
-            <a href="#" className="btn">
-              Add To Cart
-            </a>
-            </div>
-          </div>
-          <div className="card" style={{width: '15rem'}}>
-            <img className="card-img-top" src="" alt="" />
-            <div className="card-body">
-            <h5 className="card-title">Summer Knit Shirt</h5>
-            <p></p>
-            <p className="card-text">Rs 3000/-</p>
-            <a href="#" className="btn">
-              Add To Cart
-            </a>
-            </div>
-          </div>
-          <div className="card" style={{width: '15rem'}}>
-            <img className="card-img-top" src="" alt="" />
-            <div className="card-body">
-            <h5 className="card-title">Summer Knit Shirt</h5>
-            <p></p>
-            <p className="card-text">Rs 3000/-</p>
-            <a href="#" className="btn">
-              Add To Cart
-            </a>
-            </div>
-          </div>
-          <div className="card" style={{width: '15rem', height:'70vh'}}>
-            <img className="card-img-top" src="" alt="" />
-            <div className="card-body">
-            <h5 className="card-title">Summer Knit Shirt</h5>
-            <p></p>
-            <p className="card-text">Rs 3000/-</p>
+            <p className="card-text">Rs 2100/-</p>
             <a href="#" className="btn">
               Add To Cart
             </a>
