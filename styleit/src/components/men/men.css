@@ -2,10 +2,18 @@
     text-align: center;
 }
 
+.card{
+    border-radius: 0;
+    border-top: 1px solid black;
+}
+
+.card-body{
+    border: 1px solid black;
+}
+
 .mens_items{
     display: grid;
     grid-template-columns: 1fr 1fr  1fr 1fr;
     margin-top: 2rem;
-    background-color: black;
-    gap: 3.2rem;
+    gap: 3.25rem;
 }
