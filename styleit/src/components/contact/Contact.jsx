@@ -16,9 +16,6 @@ const Contact = () => {
         });
     };
 
-    const alertMessage=()=>{
-      alert('Form Submitted....');
-    }
 
     const[name, setName]=useState('')
     const[email, setEmail]=useState('')
@@ -29,7 +26,6 @@ const Contact = () => {
       setName('');
       setEmail('');
       setMessage('');
-      alertMessage();
     }
 
   return (
