@@ -21,11 +21,12 @@ const Contact = () => {
     const[email, setEmail]=useState('')
     const[message, setMessage]=useState('')
 
-    const handleOnClick=()=>{
+    const handleOnClick=(event)=>{
       sendEmail();
       setName('');
       setEmail('');
       setMessage('');
+      event.preventDefault();
     }
 
   return (
