@@ -4,6 +4,10 @@ section>h1{
     text-align: center;
 }
 
+section>h5{
+    text-align: center;
+}
+
 .contact_content{
     display: grid;
     width: 100%;
