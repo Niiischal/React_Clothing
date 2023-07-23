@@ -1,0 +1,11 @@
+section>h1{
+    text-align: center;
+}
+
+.contact_content{
+    display: grid;
+    width: 100%;
+    background-color: black;
+    grid-template-columns: 20% 80%;
+    height: 60vh;
+}
