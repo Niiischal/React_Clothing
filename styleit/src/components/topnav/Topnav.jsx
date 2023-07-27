@@ -2,6 +2,7 @@ import React from 'react'
 import { AiOutlineShoppingCart } from 'react-icons/ai'
 import { CgProfile } from 'react-icons/cg'
 import { FiSearch } from 'react-icons/fi'
+import { NavLink } from 'react-router-dom'
 import nischal from '../../assets/nischal.jpg'
 import './topnav.css'
 
@@ -55,7 +56,7 @@ const Topnav = () => {
 </div>
     </div>
     <div>
-    <a href=''><AiOutlineShoppingCart className='cart_icon'/></a>
+    <NavLink to='/cart'><AiOutlineShoppingCart className='cart_icon'/></NavLink>
     </div>
 </div>
 </div>
