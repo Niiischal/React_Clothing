@@ -197,6 +197,50 @@ div>img{
     .second_content_image{
         height: 60vh;
     }
+
+    .items_men{
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+    }
+
+    
+    .items_women{
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+    }
+
+
+    .accordian{
+        height: 80vh;
+        grid-template-rows: 9% 90%;
+        gap: 1%;
+        margin-top: 22rem;
+    }
+
+    .stackedImages{
+        margin-top: 14rem;
+    }
+
+    .mappp{
+        margin-top: 25rem;
+    }
+
+    article>h4{
+        font-size: 1rem;
+    }
+    
+    article>h5{
+        font-size: 0.8rem;
+    }
+    article>a{
+        font-family: "Ysabeau SC", sans-serif;
+        color: var(--color-black) ;
+        font-size: 0.7rem;
+    }
+
+    footer{
+        display: none;
+    }
   }
 
 

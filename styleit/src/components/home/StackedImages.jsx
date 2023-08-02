@@ -6,6 +6,7 @@ import s3 from '../../assets/s3.jpg'
 const StackedImages = () => {
   return (
     <section>
+      <div className="container">
     <div className='stackedImages'>
       <div className="first">
         <img src={s1} alt="" />
@@ -17,8 +18,9 @@ const StackedImages = () => {
         <img src={s3} alt="" />
       </div>
     </div>
-
+    </div>
     </section>
+
   )
 }
 
