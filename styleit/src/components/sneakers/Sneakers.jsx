@@ -17,7 +17,7 @@ const Sneakers = () => {
     <section>
       <div className="container Shoes">
       <h1>Sneakers Collection</h1>
-        <div className="mens_items">
+        <div className="sneakers_items">
           <div className="card" style={{width: '15rem', height:'75vh'}}>
             <img className="card-img-top" src={shoe1} alt="" />
             <div className="card-body">
