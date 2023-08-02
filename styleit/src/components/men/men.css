@@ -29,4 +29,9 @@
     gap: 3.25rem;
 }
 
-
+@media screen and (max-width: 1024px) {
+    .mens_items{
+        grid-template-columns: 1fr 1fr;
+        gap: 1.3rem;
+}
+}
