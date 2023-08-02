@@ -237,11 +237,15 @@ div>img{
         color: var(--color-black) ;
         font-size: 0.7rem;
     }
-
+    
     footer{
+        grid-template-columns: 85% 15%;
+    }
+
+    footer>.location{
         display: none;
     }
-  }
+}
 
 
 
