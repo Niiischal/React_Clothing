@@ -11,7 +11,7 @@ const ShoeList = () => {
     <div className="accordian_shoe">
     <div className="first_accordian_title">
       <h1>Shoe</h1>
-      <h5 className="view"><NavLink to="/shoes">View All></NavLink></h5>
+      <h5 className="view"><NavLink to="/sneakers">View All></NavLink></h5>
     </div>
     <div className="items_women">
       <div className="items">
