@@ -31,7 +31,7 @@ const Topnav = () => {
       <h5>Contact: <span>9807936169</span></h5>
     </div>
     <div className="change_button">
-      <a href="" className='btn'>Change Profile</a>
+      <a href="/" className='btn'>Change Profile</a>
     </div>
   </div>
 </div>
@@ -56,7 +56,7 @@ const Topnav = () => {
 </div>
     </div>
     <div>
-    <NavLink to='/cart'><AiOutlineShoppingCart className='cart_icon'/></NavLink>
+    <NavLink to='/'><AiOutlineShoppingCart className='cart_icon'/></NavLink>
     </div>
 </div>
 </div>

@@ -1,7 +1,6 @@
 import React from 'react';
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Bottomnav from './components/bottomnav/Bottomnav';
-import Cart from './components/cart/Cart';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import Home from './components/home/Home';
@@ -21,7 +20,6 @@ const App = () => {
   <Route exact path='/women' element={<Women/>}/>
   <Route exact path='/sneakers' element={<Sneakers/>}/>
   <Route exact path='/contact' element={<Contact/>}/>
-  <Route exact path='/cart' element={<Cart/>}/>
 </Routes>
 <Bottomnav/>
 <Footer/>
